@@ -14,7 +14,6 @@ body {
 
 .nav-list .link {
     color: var(--primary-text-color);
-    font-family: roboto;
     font-weight: 500;
     line-height: 1.14;
     font-size: 14px;
@@ -32,7 +31,6 @@ body {
 
 a[href="mailto:info@devstudio.com"] {
     color: var(--accent-color);
-    font-family: roboto;
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
@@ -43,7 +41,6 @@ a[href="tel:+380961111111"] {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    font-family: roboto;
     text-decoration: none;
     line-height: 1.14;
 }
@@ -77,19 +74,19 @@ a[href="./portfolio.html"]:active {
 .link-slider {}
 
 .title-slider {
-    font-family: roboto;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .text-slider {
-    font-family: roboto;
     font-style: normal;
     font-size: 16px;
     line-height: 1.8;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
 footer {
@@ -97,8 +94,24 @@ footer {
     color: #fff;
 }
 
+span {
+    color: #2196F3;
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
 .footer-logo {
     font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .adress-link {
@@ -108,7 +121,6 @@ footer {
     font-size: 14px;
     text-decoration: none;
     font-style: normal;
-    font-family: roboto;
 }
 
 a[title="мобільний"] {
@@ -117,7 +129,6 @@ a[title="мобільний"] {
     font-size: 14px;
     text-decoration: none;
     font-style: normal;
-    font-family: roboto;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -127,6 +138,5 @@ a[title="пошта"] {
     font-size: 14px;
     text-decoration: none;
     font-style: normal;
-    font-family: roboto;
     color: rgba(255, 255, 255, 0.6);
 }
