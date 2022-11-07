@@ -4,13 +4,35 @@
     --accent-color: #2196F3;
 }
 
+/*Index.html*/
 body {
     background-color: var(--main-background-color);
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
+    text-decoration: none;
 }
 
-.logo {}
+.logo {
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+
+.logo-header {
+    color: #2196F3;
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
 
 .nav-list .link {
     color: var(--primary-text-color);
@@ -18,6 +40,7 @@ body {
     line-height: 1.14;
     font-size: 14px;
     text-decoration: none;
+
 }
 
 .nav-list .link:hover,
@@ -25,45 +48,185 @@ body {
     color: var(--accent-color)
 }
 
-.contact-link-mail {
-    color: var(--accent-color);
-}
-
-a[href="mailto:info@devstudio.com"] {
-    color: var(--accent-color);
-    font-weight: 500;
+.contact-mail,
+.contact-number {
+    letter-spacing: 0.03em;
+    line-height: 1.7;
     font-size: 14px;
     text-decoration: none;
-    line-height: 1.14;
-}
-
-a[href="tel:+380961111111"] {
+    font-style: normal;
     color: #757575;
-    font-weight: 500;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 1.14;
 }
 
-.link-type a {
+.contact-number:hover,
+.contact-number:focus {
+    color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: var(--accent-color);
+}
+
+/* Main */
+.main {
+    background-color: #2F303A;
+}
+
+.title {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.order-button {
+    background-color: var(--accent-color);
+    color: #fff;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.subtitle {
+    color: #212121;
+    line-height: 1.14;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.slogan {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.list-items {
     background-color: #F5F4FA;
+}
+
+h2,
+h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.caption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Portfolio */
+body {
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+
+.logo-header {
+    color: #2196F3;
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+
+.nav-list .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color)
+}
+
+.contact-mail,
+.contact-number {
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    color: #757575;
+}
+
+.contact-number:hover,
+.contact-number:focus {
+    color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: var(--accent-color);
+}
+
+.filter {
     padding: 5px;
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
     cursor: pointer;
     color: var(--primary-text-color);
-    text-decoration: none;
+
 
 }
 
-.link-type a:hover,
-.link-type a:focus {
+.button.all:hover,
+.button.all:focus {
     color: var(--main-background-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
-a[href="./portfolio.html"]:active {
+.nav-list .link.current {
     color: var(--accent-color);
 }
 
@@ -71,7 +234,6 @@ a[href="./portfolio.html"]:active {
     background-color: var(--main-background-color);
 }
 
-.link-slider {}
 
 .title-slider {
     font-style: normal;
@@ -102,6 +264,7 @@ span {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+
 }
 
 .footer-logo {
@@ -123,7 +286,8 @@ span {
     font-style: normal;
 }
 
-a[title="мобільний"] {
+a[title="мобільний"],
+a[title="пошта"] {
     letter-spacing: 0.03em;
     line-height: 1.7;
     font-size: 14px;
@@ -132,11 +296,6 @@ a[title="мобільний"] {
     color: rgba(255, 255, 255, 0.6);
 }
 
-a[title="пошта"] {
-    letter-spacing: 0.03em;
-    line-height: 1.7;
-    font-size: 14px;
-    text-decoration: none;
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+.list {
+    list-style: none;
 }
