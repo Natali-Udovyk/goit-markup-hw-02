@@ -111,15 +111,12 @@ body {
     background-color: #F5F4FA;
 }
 
-h2,
-h4 {
+.headline {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-
 }
 
 .caption {
@@ -205,14 +202,6 @@ h4 {
 .button.marketing {
     background: #F5F4FA;
     cursor: pointer;
-}
-
-.text-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    font-family: roboto;
 }
 
 .button.all:hover,
@@ -314,6 +303,7 @@ h4 {
     font-size: 14px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 .mail:hover,
