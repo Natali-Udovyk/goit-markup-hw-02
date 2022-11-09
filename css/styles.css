@@ -90,6 +90,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    font-family: roboto;
 }
 
 .subtitle {
@@ -202,6 +203,12 @@ body {
 .button.marketing {
     background: #F5F4FA;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    /* font-family: roboto; */
 }
 
 .button.all:hover,
